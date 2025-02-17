@@ -1,6 +1,11 @@
 ## Escuela Colombiana de Ingeniería
+### Arquitecturas de Software – ARSW
 
-## Arquitecturas de Software
+
+## ***Realizado por:***
+
+- Juan Pablo Daza Pereira.
+- Nicolas Bernal Fuquene.
 
 # Componentes y conectores - Parte I.
 
