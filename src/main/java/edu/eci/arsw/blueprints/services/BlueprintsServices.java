@@ -23,9 +23,15 @@ public class BlueprintsServices {
     @Autowired
     BlueprintsPersistence bpp;
 
+//    //Filtro de redundancia
     @Autowired
     @Qualifier("redundancyFilter")
     BlueprintFilter bpFilter;
+
+    //Filtro de submuestreo
+//    @Autowired
+//    @Qualifier("subsamplingFilter")
+//    BlueprintFilter bpFilter;
     
     public void addNewBlueprint(Blueprint bp) throws BlueprintPersistenceException {
         bpp.saveBlueprint(bp);
